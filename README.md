@@ -4,4 +4,4 @@ Expenses chart component challange on frontend mentor website. | https://www.fro
 
 This site is mobile friendly and DOM manipulation is used.
 
-Go to site -> 
+Go to site -> https://otpz.github.io/expenses-chart-component/
