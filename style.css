@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Cream);
+}
+.container{
+    margin-top: 9.375rem;
+    margin: 5%;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    background-color: var(--Soft-red);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .875rem;
+}
+.my-balance{
+    padding: 1.875rem 1.875rem;
+}
+.my-balance-header{
+    color: white;
+    font-size: .875rem;
+    font-weight: 400;
+} 
+.my-balance-money{
+    display: inline-block;
+    padding-top: .5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.logo{
+    padding: 1.875rem 1.875rem;
+}
+.div-logo{
+    width: 3.25rem;
+    height: 3.25rem;
+}
+.content{
+    width: 100%;
+    background-color:var(--Very-pale-orange);
+    margin-top: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.875rem 1.875rem;
+    border-radius: 1.25rem;
+    
+}
+.content-header{
+    font-size: .75rem;
+    margin-bottom: 1.875rem;
+    transition: all 0.5s ease-out;
+}
+.content-graphics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 0.5s ease-out;
+}
+.graphics{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    text-align:justify; 
+    align-items: center; 
+    transition: all 0.5s ease-out; 
+}
+.graphic1{
+    width: 2.375rem;
+    height: 2.5rem;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.graphic2{
+    width: 2.375rem;
+    height: 5.0187rem;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.graphic3{
+    width: 2.375rem;
+    height: 7.5263rem;
+    background-color: var(--Cyan);
+    border-radius: .3125rem;
+}
+.graphic4{
+    width: 2.375rem;
+    height: 71.46px;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.graphic5{
+    width: 2.375rem;
+    height: 3.3625rem;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.graphic6{
+    width: 2.375rem;
+    height: 6.2219rem;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.graphic7{
+    width: 2.375rem;
+    height: 3.6625rem;
+    background-color: var(--Soft-red);
+    border-radius: .3125rem;
+}
+.months{
+    font-size: .625rem;
+    color: gray;
+    font-weight: 400;
+}
+.content-money{
+    margin-top: 1.5625rem;
+}
+.muted-text{
+    font-size: .875rem;
+    font-weight: 400;
+    color: gray;
+}
+.end-money{
+    font-size: 2.1875rem;
+    font-weight: 800;
+}
+.money-statistic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .3125rem;
+}
+.statistic{
+    display: flex;
+    flex-direction: column;
+}
+.percent{
+    text-align: end;
+}
+.money-info{
+    position: relative;
+    background-color: var(--Dark-brown);
+    color: var( --Very-pale-orange);
+    font-size: .75rem;
+    padding: .1875rem;
+    margin-bottom: .375rem;
+    border-radius: .25rem;
+}
+.hidden{
+    display: none;
+}
+.graphic3:hover{
+    background-color: hsl(187, 40%, 80%);
+    transition: all 0.5s ease-out;
+}
+.message-box:hover{
+    background-color: hsl(10, 93%, 77%);
+    transition: all 0.5s ease-out;
+}
+
+@media only screen and (max-width: 26.875rem) {
+    .content{
+        padding: 1.25rem 1.25rem;
+        height: auto;
+        width: 100%;
+    }
+    .content-money{
+        width: 100%;
+    }
+    .content-header{
+        width: 100%;
+    }
+    .content-graphics{
+        width: 100%;
+    }
+    .graphics{
+        width: 10%;
+        margin-right: .625rem;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 98%;
+        margin: 3%;
+    }
+  }
